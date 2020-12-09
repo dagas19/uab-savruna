@@ -1,0 +1,21 @@
+.footer-bg-color {
+  background-color: #2F2E2E;
+  color: rgba(230, 230, 230, 0.8);
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+.page-content {
+  flex-grow: 1;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
