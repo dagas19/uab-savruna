@@ -23,6 +23,7 @@ body {
 .main{
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 125px;
 }
 
 h1 {
@@ -114,8 +115,12 @@ img {
   max-height: 155px;
 }
 .card-deck {
-  margin-bottom: 125px;
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+.cc {
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 150px;
 }
