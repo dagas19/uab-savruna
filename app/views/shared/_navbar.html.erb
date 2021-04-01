@@ -1,16 +1,14 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "logo.png" %>
-    <% end %>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li><a href="#kontaktai" style="text: white;">Kontaktai</a></li>
-    </ul>
-  </div>
-</div>
+<nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" ><%= image_tag "logo.png", class: "logo" %></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links"><i class="fas fa-phone"></i>+370 60043160</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links"><i class="fas fa-envelope"></i>savrunakretinga@gmail.com</a>
+            </li>
+        </ul>
+    </nav>
