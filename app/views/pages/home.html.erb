@@ -1,144 +1,167 @@
 <div class="banner">
-  <p class="display-4 font-bold ">Įvairiais kiekiais tiesiai iš karjero vežame: <br><strong>Žvyras, Smėlis, Skalda, Juodžemis, Atsijos ir t.t.
-
-  </p></strong>
 </div>
-<h1 class="display-1 text-center" style="font-size: 50px;">Savivarčių nuoma</h1>
-<div class="card-deck">
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1>Ekskavatorinio krautuvo (račioko) paslaugos</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-6 col-lg-6 col-xl-6">
+              <ul>
+                  <li><p>Račioko paslaugos. </p></li>
+                  <li><p>Kasimas, Lyginimas, Planiravimas, </p></li>
+                  <li><p>Sklypų atodanga (nukasimas) </p></li>
+                  <li><p>Sklypų iškėlimas </p></li>
+                  <li><p>Tvenkinių, prudų kasimas </p></li>
+                  <li><p>Tranšejų kasimas </p></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                  <%= image_tag "raciokas.jpg", class:"d-block w-100", alt:"first slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "raciokas1.jpg", class:"d-block w-100", alt:"second slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "raciokas2.jpg", class:"d-block w-100", alt:"third slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "raciokas3.jpg", class:"d-block w-100", alt:"forth slide" %>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-6">
+      <h1>Savivarčių <br> paslaugos</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-6 col-lg-6 col-xl-6">
+              <ul>
+                  <li><p>Kelių ir privažiavimų darymas </p></li>
+                  <li><p>Vežame Žvyrą, smėlį, juodžemį, skaldą. </p></li>
+                  <li><p>Dirbame ir po darbo valandų, ir savaitgaliais. </p></li>
+                  <li><p>Dirbame su įmonėm (išrašome sąskaitas) </p></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                  <%= image_tag "masina.jpg", class:"d-block w-100", alt:"first slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "masina1.jpg", class:"d-block w-100", alt:"second slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "masina3.jpg", class:"d-block w-100", alt:"third slide" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "masina4.jpg", class:"d-block w-100", alt:"forth slide" %>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2 class="display-1 text-center prod">Parduodama ir pristatoma produkcija</h2>
+    </div>
+  </div>
+</div>
+<div class="cards">
   <div class="card">
-    <p>Keturąšiai</p>
-    <img src="https://skelbiu-img.dgn.lt/1_18_2988763981/zvyras-smelis-juodzemis-skalda.jpg"  class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Žvyras betonavimui (gamtinis)</h5>
+    </div>
+    <%= image_tag "zvyrasb.jpg", class: "card-img-top" %>
   </div>
   <div class="card">
-    <p>Triąšiai</p>
-    <img src="https://skelbiu-img.dgn.lt/1_18_2917418439/zvyras-smelis-juodzemis-skalda.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Žvyras sijotas fr 0-4 grindu betonavimui</h5>
+    </div>
+     <%= image_tag "zvyrass.jpg", class: "card-img-top" %>
   </div>
   <div class="card">
-    <p>Vilkikai su puspriekabiem</p>
-    <img src="https://skelbiu-img.dgn.lt/1_18_3046305403/zvyras-smelis-juodzemis-skalda.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Žvyras kelinis (Ašas 0-32,0-22)</h5>
+    </div>
+    <%= image_tag "kelinis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Smėlį</h5>
+    </div>
+    <%= image_tag "smelis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Maltas betonas</h5>
+    </div>
+    <%= image_tag "maltasb.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Atsijos fr 0-5</h5>
+    </div>
+    <%= image_tag "atsijos.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Juodžemį vejos sodinimui,sijota be grumslu</h5>
+    </div>
+    <%= image_tag "juodzemis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Gruntas slypu iskelimui</h5>
+    </div>
+    <%= image_tag "gruntasslypam.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Kumuso juodžemis</h5>
+    </div>
+    <%= image_tag "smelis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Juodžemis su durpėm (šiltnamiams)</h5>
+    </div>
+    <%= image_tag "smelis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Žvirgždo skalda frakcijos 4/14,14/32,0/32,0/45</h5>
+    </div>
+    <%= image_tag "zvirgzskald.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Dolomito skalda frakcijos 0/45,0/32 trinkeliu pagrindui</h5>
+    </div>
+    <%= image_tag "dolomito.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Žvirgžda frakcijos 14/32,4/14</h5>
+    </div>
+    <%= image_tag "smelis.jpg", class: "card-img-top" %>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Granito skalda</h5>
+    </div>
+    <%= image_tag "granito.jpg", class: "card-img-top" %>
   </div>
 </div>
-
-
-<h1 class="display-1 text-center" style="font-size: 50px;">Parduodama ir pristatoma produkcija</h1>
-<div class="main">
-  <ul class="cards">
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "zvyrasb.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Žvyras betonavimui (gamtinis)</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "zvyrass.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Žvyras sijotas fr 0-4 grindu betonavimui</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "kelinis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Žvyras kelinis (Ašas 0-32,0-22)</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "smelis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Smėlį</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "maltasb.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Maltas betonas</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "atsijos.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Atsijos fr 0-5</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "juodzemis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Juodžemį vejos sodinimui,sijota be grumslu</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "gruntasslypam.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Gruntas slypu iskelimui</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "smelis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Kumuso juodžemis</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "smelis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Juodžemis su durpėm (šiltnamiams)</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "zvirgzskald.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Žvirgždo skalda frakcijos 4/16,16/32,0/32,0/45</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "dolomito.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Dolomito skalda frakcijos 0/45,0/32 trinkeliu pagrindui</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "smelis.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Žvirgžda frakcijos 16/32,4/16</h2>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><%= image_tag "granito.jpg" %></div>
-        <div class="card_content">
-          <h2 class="card_title">Granito skalda</h2>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
-<div class="cc">
-  <h1>Produkcija pristatome visoje žemaitijoje</h1>
-  <h1>Klaipėda, Kretinga, Palanga, Plungė, Neringa ir t.t.</h1>
-</div>
-
