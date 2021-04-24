@@ -1,15 +1,29 @@
 .banner {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   margin-bottom: 40px;
-  background-image: asset-url('ban.jpg');
+  background-image: asset-url('newimg.jpg');
     background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+    background-position: center top;
+    background-size: contain
 }
 
 .banner p {
   font-size: 2.5rem;
   font-weight: lighter;
   padding: 10px;
+}
+@media (min-width: 375px) {
+    .banner { height: 20vh; }
+}
+@media (min-width: 480px) {
+    .banner { height: 20vh; }
+}
+
+@media (min-width: 768px) {
+    .banner { height: 30vh; }
+}
+
+@media (min-width: 992px) {
+    .banner { height: 50vh; }
 }
