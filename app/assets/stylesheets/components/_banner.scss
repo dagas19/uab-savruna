@@ -14,24 +14,25 @@
   padding: 10px;
 }
 @media (min-width: 375px) {
-    .banner { height: 20vh;
+    .banner { height: 30vh;
+       background-image: asset-url('banmain.jpg');
     background-size: cover }
 }
 @media (min-width: 480px) {
-    .banner { height: 28vh;
+    .banner { height: 370px;
     background-size: cover }
 }
 
 @media (min-width: 768px) {
-    .banner { height: 43vh;
+    .banner { height: 60vh;
     background-size: cover }
 }
 
 @media (min-width: 992px) {
-    .banner { height: 58vh;
+    .banner { height: 77vh;
     background-size: cover }
 }
 @media (min-width: 1300px) {
-    .banner { height: 60vh;
+    .banner { height: 100vh;
     background-size: cover }
 }
