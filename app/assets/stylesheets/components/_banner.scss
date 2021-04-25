@@ -14,20 +14,24 @@
   padding: 10px;
 }
 @media (min-width: 375px) {
-    .banner { height: 30vh;
-    background-image: asset-url('banimg.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain }
+    .banner { height: 20vh;
+    background-size: cover }
 }
 @media (min-width: 480px) {
-    .banner { height: 40vh; }
+    .banner { height: 28vh;
+    background-size: cover }
 }
 
 @media (min-width: 768px) {
-    .banner { height: 30vh; }
+    .banner { height: 43vh;
+    background-size: cover }
 }
 
 @media (min-width: 992px) {
-    .banner { height: 50vh; }
+    .banner { height: 58vh;
+    background-size: cover }
+}
+@media (min-width: 1300px) {
+    .banner { height: 60vh;
+    background-size: cover }
 }
