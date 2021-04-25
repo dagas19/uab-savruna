@@ -14,7 +14,8 @@
   padding: 10px;
 }
 @media (min-width: 375px) {
-    .banner { height: 30vh; }
+    .banner { height: 30vh;
+    background-image: asset-url('banimg.jpg'); }
 }
 @media (min-width: 480px) {
     .banner { height: 40vh; }
